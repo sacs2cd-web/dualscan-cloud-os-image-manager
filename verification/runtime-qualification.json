@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "qualifiedAtUtc": "2026-10-16T22:57:22.187942+00:00",
+  "scope": "Exclusively owned disposable WordPress sites and MySQL databases on localhost; no live site deployment",
+  "installedProductionFileCount": 28,
+  "allInstalledRuntimeCodeHashesMatchCurrentSource": true,
+  "documentationChangesAfterTesting": [
+    {
+      "path": "bin/README.md",
+      "testedDocumentationSha256": "f9323ae6981a3515fb4bec4a3f8daaa67465862b4efaaa3b5b3c2150c22935e1",
+      "currentDocumentationSha256": "9570efcb25041073792837df8444ab78b5c7cb96e85f9b78f0806249f76fd376",
+      "scope": "Non-executable documentation updated after qualification"
+    }
+  ],
+  "sourceBeforeRestore": "Original authoring site with owner-only manager",
+  "sourceAfterHttpRestore": "Sealed public runtime with administrative accounts removed; original authoring permissions intentionally unavailable",
+  "evidence": {
+    "runtime-environment.json": {
+      "bytes": 1228,
+      "sha256": "6318ff084713e2f0101cd885affea65cdc6f3a950a679800414e9874136bdf2e"
+    },
+    "runtime-fixtures.json": {
+      "bytes": 2317,
+      "sha256": "f60a56e8540a50a65e0640364abd284648d83402b0472027f0db049380f87b89"
+    },
+    "integration-database-adapter.json": {
+      "bytes": 4764,
+      "sha256": "ae9eacd40453276ae94024eda9beb2910a17e0c8de04955bdb5b901922e56230"
+    },
+    "integration-roundtrip.json": {
+      "bytes": 1410014,
+      "sha256": "ff37e841700eb0e01c6fe6bf684f862c2ab82ae12ea4c7c4635a3f82017a85cb"
+    },
+    "integration-policy-preflight.json": {
+      "bytes": 1873,
+      "sha256": "1574ab95bfe1cf7728f4b2a55f552d8cc956e25379c8db51f2b7e59119d00d3d"
+    },
+    "integration-permissions.json": {
+      "bytes": 1254,
+      "sha256": "fa43ae8e49c13b9b7bdbd82483edafbb184194520968c9bce69085c88e265b6c"
+    },
+    "integration-http-permissions.json": {
+      "bytes": 2132,
+      "sha256": "09a56184bba9a1fe61fda6dc11f9c20cbc2d0dc502b0e50a1ef676b5cba9b1fc"
+    },
+    "integration-http-roundtrip.json": {
+      "bytes": 5739,
+      "sha256": "40f7512f42e78e9c773c4e1ae769be7eae7fb981eb522b1423f3bff073ed740a"
+    },
+    "integration-manager-endpoints.json": {
+      "bytes": 952,
+      "sha256": "077a154ae29ac4c6792a8eba91e0532f49290ed460eef37e578b74c2f2f5023d"
+    },
+    "integration-public-router.json": {
+      "bytes": 2206,
+      "sha256": "268a4cd9557a6b81ee5a0aa916a97d89631105891e2a59711ebe73e355197e92"
+    },
+    "runtime-shutdown.json": {
+      "bytes": 517,
+      "sha256": "feb618236cbae63883605a43ad3d1b9ab774e194f595c9421c82fb9794fb4b58"
+    },
+    "runtime-plugin-files-1.0.0.json": {
+      "bytes": 4290,
+      "sha256": "b3595d7e0d9f7e55be558781bf69ab6d02b7d26110c838c45d0a0fe1914baa41"
+    }
+  },
+  "limits": {
+    "nginxExecuted": false,
+    "dockerExecuted": false,
+    "liveHostingTested": false,
+    "crossDomainMigrationTested": false,
+    "largeProductionDatabaseLoadTested": false
+  },
+  "summary": {
+    "nativeFullWordPressCases": 12,
+    "focusedPolicyAndForeignKeyCases": 8,
+    "authoringRolesCases": 3,
+    "authoringHttpPermissionCases": 19,
+    "deploymentApprovalRefusalCases": 17,
+    "sealedHttpCasesIncludingOldOwnerCookie": 23,
+    "publicRouterCases": 21,
+    "javascriptEndpointRegressionCases": 5,
+    "databaseTables": 14,
+    "wordpressVersion": "7.1.3",
+    "phpVersion": "8.2.0",
+    "mysqlVersion": "5.7.39"
+  },
+  "ownedRuntimeStopped": true,
+  "historyNote": "Original installed-code manifest recovered byte-for-byte from the authenticated original test image after the latest manifest path advanced to 1.0.1; expected SHA256 matched exactly."
+}

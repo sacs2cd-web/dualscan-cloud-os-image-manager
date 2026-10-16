@@ -1,0 +1,21 @@
+PASS missing key inspection never generates a replacement master
+PASS creation stores random owner-only 32-byte master and derives stable context key
+PASS normal status contains no master or derived passphrase
+PASS explicit offline export verifies secret file without printing key bytes
+PASS same private master and folder derive the same key on another server
+PASS server-folder key creates an authenticated image without storing any key in manifest or site
+PASS provisioned destination restores actual image bytes and database value
+PASS wrong random server master fails before target file or DB mutation
+PASS same master but different folder context fails before target file or DB mutation
+PASS different folder context has a different nonsecret key identifier
+PASS public-root key storage is rejected before a directory or key is created
+PASS public-root key export and import are refused
+PASS key permissions are validated without silently widening or repairing them
+PASS symbolic-link key files are never followed
+PASS symbolic-link keyring directories are refused
+PASS invalid key lengths fail instead of replacing the old file
+PASS existing different keys and existing export paths are never overwritten
+PASS publicly readable keyring directories are rejected without chmod changes
+PASS invalid folder contexts cannot select arbitrary key files
+PASS parallel first use produces one stable master without a replacement race
+PASS actual private master and derived key do not appear in distributable source

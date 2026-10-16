@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "preparedAtUtc": "2026-10-16T23:24:33.113919+00:00",
+  "scope": "Synthetic owned localhost only; normal authenticated production create and download API; no restore or deployment",
+  "site": "http://127.0.0.1:8767",
+  "siteTitle": "Dualscan Cloud Demo",
+  "demoContentTitle": "Welcome to your application",
+  "imageName": "dualscan-presentation.dualscan",
+  "imageBytes": 111383338,
+  "imageSha256": "f4af8e6359a3dcc00bb1b92516da13cf6e6e4381a5b0f2b841fb4e7e0251f571",
+  "createJobId": "a917fdbdd5cb07cde1017089bf89213b",
+  "databaseTables": 14,
+  "fileAndDirectoryEntries": 4320,
+  "authoringWorkspaceLoaded": true,
+  "passwordUiAbsent": true,
+  "originalAdministratorAccountsRestoredForPresentation": true,
+  "siteDeploymentNotRun": true,
+  "historicalPrivateJobRecordsArchivedOutsideDeliverable": true
+}

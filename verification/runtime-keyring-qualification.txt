@@ -1,0 +1,7 @@
+PASS: Passwordless server-key WordPress qualification.
+Real WordPress 7.1.3, PHP 8.2.0, MySQL 5.7.39; synthetic localhost only.
+Full HTTP create/download/upload/inspect/deploy passed: 14 tables, 4306 entries, 111375929 encrypted bytes.
+17 consent refusal cases; 23 sealed route cases; 21 public router cases; logout and account removal verified.
+Current-source supplemental coverage: 41 engine cases, 21 keyring cases, 18 PHP lint checks, independent fresh 10-case native keyring probe.
+SOURCE LIMIT: HTTP tested installed code differs from current code in authentication error wording, concurrent private-directory creation and private lock creation. Details and hashes are explicit in runtime-keyring-qualification.json and runtime-keyring-source-delta.patch. No claim of a full HTTP rerun against these deltas.
+All task-owned PHP/MySQL listeners stopped and ports verified closed.

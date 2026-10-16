@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "stoppedAtUtc": "2026-10-16T23:08:05.665636+00:00",
+  "phpListenersStopped": [
+    {
+      "pid": 55288,
+      "kind": "Owned localhost PHP listener"
+    },
+    {
+      "pid": 55289,
+      "kind": "Owned localhost PHP listener"
+    },
+    {
+      "pid": 57163,
+      "kind": "Owned localhost PHP listener"
+    }
+  ],
+  "ownedMysqlShutdownCompleted": true,
+  "scope": "Only exact task-owned PHP listeners and isolated MySQL socket stopped",
+  "privateQaMasterRetainedOutsidePublicRootAndProject": true,
+  "runtimeDataRetainedOutsideProject": true,
+  "portsVerifiedClosedAtUtc": "2026-10-16T23:10:42.904967+00:00",
+  "closedPorts": [
+    {
+      "port": 33617,
+      "listenerPresent": false
+    },
+    {
+      "port": 8767,
+      "listenerPresent": false
+    },
+    {
+      "port": 8768,
+      "listenerPresent": false
+    },
+    {
+      "port": 8769,
+      "listenerPresent": false
+    }
+  ]
+}

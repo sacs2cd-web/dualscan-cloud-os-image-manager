@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "stoppedAtUtc": "2026-10-16T23:33:56.428800+00:00",
+  "scope": "Only exclusively owned presentation localhost PHP listener and isolated MySQL socket",
+  "phpListenersStopped": [
+    {
+      "pid": 64478,
+      "port": 8767
+    }
+  ],
+  "ownedMysqlShutdownCompleted": true,
+  "verifiedClosedPorts": [
+    33617,
+    8767,
+    8768,
+    8769
+  ],
+  "runtimeAndPrivateMasterRetainedOutsideDeliverable": true,
+  "sourceAdministrativeAccountsStillPresent": true,
+  "presentationRestoreJobsSubmitted": 0
+}

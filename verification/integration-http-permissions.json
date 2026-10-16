@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "runtime": "Actual HTTP cookies, WordPress nonce verification and native admin/REST routes",
+  "mode": "Original authoring installation before image restoration",
+  "scope": "Synthetic localhost fixture; no live sites",
+  "cases": {
+    "anonymousImageListDenied": {
+      "passed": true,
+      "status": 403
+    },
+    "ownerWorkspaceLoads": {
+      "passed": true,
+      "status": 200
+    },
+    "ownerAuthenticatedImageListAllowed": {
+      "passed": true,
+      "status": 200
+    },
+    "missingNonceDenied": {
+      "passed": true,
+      "status": 403
+    },
+    "wrongNonceDenied": {
+      "passed": true,
+      "status": 403
+    },
+    "backupRequiresPausedWritersAcknowledgement": {
+      "passed": true,
+      "status": 400
+    },
+    "unsupportedUploadExtensionDenied": {
+      "passed": true,
+      "status": 400
+    },
+    "dualscan_client:/wp-admin/plugins.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_client:/wp-admin/plugin-install.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_client:/wp-admin/plugin-editor.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_client:/wp-admin/admin.php?page=dualscan-cloud-images": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_client:/?rest_route=/dualscan-cloud/v1/images": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_client:/?rest_route=/wp/v2/plugins": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/wp-admin/plugins.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/wp-admin/plugin-install.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/wp-admin/plugin-editor.php": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/wp-admin/admin.php?page=dualscan-cloud-images": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/?rest_route=/dualscan-cloud/v1/images": {
+      "passed": true,
+      "status": 403
+    },
+    "dualscan_editor:/?rest_route=/wp/v2/plugins": {
+      "passed": true,
+      "status": 403
+    }
+  }
+}

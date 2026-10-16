@@ -1,0 +1,97 @@
+{
+  "phpVersion": "8.2.0",
+  "passed": 18,
+  "failed": 0,
+  "files": [
+    {
+      "file": "includes/class-appliance-deployment.php",
+      "sha256": "e957cd604ceaee972d0d688a8483707c40d19fad2cacadb0b27f1c7b9b6f218a",
+      "passed": true
+    },
+    {
+      "file": "includes/class-deployment-terms.php",
+      "sha256": "a6dcf83ea9a4e559301f69390d1798d6f53b4a28ec3b545820f0c2219a79eef6",
+      "passed": true
+    },
+    {
+      "file": "includes/class-engine-exception.php",
+      "sha256": "1a03f406ab5e51910eb4aa60b20d8af457cf5a35361a4f72e9e7c532bd4a27e1",
+      "passed": true
+    },
+    {
+      "file": "includes/class-image-codec.php",
+      "sha256": "a3131d67aafb7d94aced902cd85bb1e6ccb83ebcc5457a5a43b7bfb48b8205b6",
+      "passed": true
+    },
+    {
+      "file": "includes/class-image-manager.php",
+      "sha256": "929b5b2d11da8eb8ee7d8700cc4f9763d35a6d87431eac0f509bc819f2b96f5b",
+      "passed": true
+    },
+    {
+      "file": "includes/class-logical-database.php",
+      "sha256": "9a4cac6b8e0995bacd14fc995a4b42fb53882335270d43fd24607d1aeb221b74",
+      "passed": true
+    },
+    {
+      "file": "includes/class-pdo-database.php",
+      "sha256": "b9fad1e444a3760098dc326521c27c6a76f834da0abf7dd40e6a966a4f5ab408",
+      "passed": true
+    },
+    {
+      "file": "includes/class-safe-files.php",
+      "sha256": "16b5ed4233f556671a5fa6d60e5f8f689854250fbb1a0654f75a2ecdc016da72",
+      "passed": true
+    },
+    {
+      "file": "includes/class-server-keyring.php",
+      "sha256": "bb7ec4ab9efc1c19f8bbe2adb66a9332cb42242b146f6c4e3a0f85d6af4a4201",
+      "passed": true
+    },
+    {
+      "file": "includes/class-wordpress-database.php",
+      "sha256": "ca614644c4ad2879db2a8e01b91d093befbbb8d4ab3811ae92f9ef22970ace77",
+      "passed": true
+    },
+    {
+      "file": "includes/engine-bootstrap.php",
+      "sha256": "3309cef097554f796e19b6b21d8925d3e4ac93904df37a2956f22568f720f6d4",
+      "passed": true
+    },
+    {
+      "file": "includes/interface-database-adapter.php",
+      "sha256": "31a87ecee8ebbe866be8bf1cdaf83994ff52294ce5d993456e8e56ddb65d5cfe",
+      "passed": true
+    },
+    {
+      "file": "runtime/dualscan-appliance-guard.php",
+      "sha256": "9179bf072dae97498f9a8a47b440fc36bbac59a9d7d229317be7746469d19101",
+      "passed": true
+    },
+    {
+      "file": "bin/appliance.php",
+      "sha256": "56057c427559dce6fe8fecaea10e07322cda09c905416bee2ab0c94eef0f76fa",
+      "passed": true
+    },
+    {
+      "file": "bin/dualscan.php",
+      "sha256": "bdf76c059f3dd8eeb63409c4b253cfc7a8a56dd44021afb9edfa6debf09d4619",
+      "passed": true
+    },
+    {
+      "file": "bin/keyring.php",
+      "sha256": "a548acecb2b1c5100a21831edb31e65daa128157b30ec9cdcb8cbb604656b871",
+      "passed": true
+    },
+    {
+      "file": "tests/engine-test.php",
+      "sha256": "b40361d55004c2a6e9d3108bf8ae06c39368f175b03892a9db51023e33f053ec",
+      "passed": true
+    },
+    {
+      "file": "tests/server-keyring-test.php",
+      "sha256": "bf427650cfdc0c091e58dd240ef697baced5a57229f34dd47f2efa3f4ad9b518",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "verifiedAtUtc": "2026-10-16T23:33:58.801193+00:00",
+  "capturedOn": "2026-10-16",
+  "browser": "Chrome",
+  "scope": "Actual running current 1.0.1 WordPress manager in exclusively owned synthetic localhost site",
+  "captures": {
+    "workspace.jpg": {
+      "bytes": 124355,
+      "sha256": "8d91236cb870a2024d72cfeab298d2a20468d96e7cf7b43c4f3e6bf342930287"
+    },
+    "recovery-step-1.jpg": {
+      "bytes": 46286,
+      "sha256": "f0a1701300cb9130a4cd4dabfbc11d80600e0c9d17d2d422d9b00f5429c25a64"
+    },
+    "recovery-step-2.jpg": {
+      "bytes": 44079,
+      "sha256": "f35117a92520be0f6cc4c9471f3ab67e4a72cd9727cc5b9ec25add7bfd6fc13c"
+    },
+    "recovery-step-3-eula.jpg": {
+      "bytes": 101472,
+      "sha256": "244ca6af2b57e93af1f884ed0f49aefc2c0092e78e6b9fb33464642cc577c821"
+    }
+  },
+  "allFourFinalImagesIndependentlyOpenedAndVisuallyVerified": true,
+  "intendedInterfacePanelVisibleInEachImage": true,
+  "workspaceCompleteAndLegible": true,
+  "workflow": "Normal browser upload of the real encrypted image, authenticated complete image inspection and sequential server-bound deployment confirmations 1 and 2; final EULA displayed but not accepted and deployment not submitted.",
+  "finalAcknowledgementsLeftUnchecked": true,
+  "finalDeployActionDisabled": true,
+  "noDeploymentOrRestoreJobSubmitted": true,
+  "privateDeploymentPlansAtStepTwo": 2,
+  "sourceAdministrativeAccountsStillPresent": true,
+  "currentInstalledProductionFilesStillMatchCaptureManifest": true,
+  "runtimeShutdownReport": "runtime-presentation-shutdown.json",
+  "preparedImageBytes": 111383338,
+  "preparedImageSha256": "f4af8e6359a3dcc00bb1b92516da13cf6e6e4381a5b0f2b841fb4e7e0251f571",
+  "secretsOrFixtureImageIncludedInPresentation": false,
+  "earlierIncorrectDraftCropsSuperseded": true
+}

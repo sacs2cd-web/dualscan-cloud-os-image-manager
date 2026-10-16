@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "runtime": "Native PHP development server with supplied deployment/public-router.php on separate localhost listener",
+  "routerSha256": "310b4c873ac3b59b7affd3ea9f10d1fa2ed83efbc1deda129eae3a11e50d1d10",
+  "nginxExecuted": false,
+  "scope": "Disposable restored sealed site, direct response statuses checked without following redirects",
+  "cases": {
+    "/wp-admin/": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-admin/load-scripts.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-admin/load-styles.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-admin/setup-config.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-login.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/xmlrpc.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-json/wp/v2/users": {
+      "passed": true,
+      "status": 403
+    },
+    "/?rest_route=/dualscan-cloud/v1/images": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-content/plugins/fixture-active/fixture-active.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-content/plugins/dualscan-cloud-os-image-manager/includes/class-plugin.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-config.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-includes/version.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-content/mu-plugins/dualscan-appliance-policy.json": {
+      "passed": true,
+      "status": 403
+    },
+    "/index.php/wp-admin/": {
+      "passed": true,
+      "status": 403
+    },
+    "/%77p-admin/load-scripts.php": {
+      "passed": true,
+      "status": 403
+    },
+    "/wp-admin%252fsetup-config.php": {
+      "passed": true,
+      "status": 403
+    },
+    "publicFront:GET": {
+      "passed": true,
+      "status": 200
+    },
+    "publicFront:HEAD": {
+      "passed": true,
+      "status": 200
+    },
+    "publicFront:POST": {
+      "passed": true,
+      "status": 200
+    },
+    "publicStaticCssPreserved": {
+      "passed": true,
+      "status": 200,
+      "bytes": 140829
+    },
+    "unsupportedHttpMethodDenied": {
+      "passed": true,
+      "status": 403
+    }
+  }
+}

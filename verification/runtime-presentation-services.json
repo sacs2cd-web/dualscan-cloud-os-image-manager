@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "startedFor": "Actual authoring UI and three deployment confirmation panel presentation capture only",
+  "startedAtUtc": "2026-10-16T23:27:28.271892+00:00",
+  "localhostListeners": [
+    {
+      "port": 33617,
+      "pids": [
+        64477
+      ]
+    },
+    {
+      "port": 8767,
+      "pids": [
+        64478
+      ]
+    }
+  ],
+  "runtimeOutsideDeliverable": true,
+  "noFinalDeploymentSubmitted": true,
+  "restartedAtUtc": "2026-10-16T23:30:18.381726+00:00",
+  "reasonForRestart": "Corrected full-panel presentation captures",
+  "sourceAndAccountsUnchangedAfterFirstPresentationShutdown": true
+}

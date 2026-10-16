@@ -1,0 +1,212 @@
+{
+    "passed": 41,
+    "failed": 0,
+    "tests": [
+        {
+            "name": "complete filesystem + binary database roundtrip",
+            "passed": true,
+            "seconds": 6.073
+        },
+        {
+            "name": "preserved target wp-config.php",
+            "passed": true,
+            "seconds": 3.677
+        },
+        {
+            "name": "URL and prefix mismatch cannot mutate target",
+            "passed": true,
+            "seconds": 2.406
+        },
+        {
+            "name": "rollback after post-database failure restores original database and files",
+            "passed": true,
+            "seconds": 3.829
+        },
+        {
+            "name": "controlled rollback keeps preserved config and live maintenance guard",
+            "passed": true,
+            "seconds": 3.696
+        },
+        {
+            "name": "failed rollback returns stable error code and leaves maintenance guard",
+            "passed": true,
+            "seconds": 3.715
+        },
+        {
+            "name": "wrong password rejected without public mutation",
+            "passed": true,
+            "seconds": 1.208
+        },
+        {
+            "name": "ciphertext tamper rejected without public mutation",
+            "passed": true,
+            "seconds": 1.218
+        },
+        {
+            "name": "tag tamper rejected without public mutation",
+            "passed": true,
+            "seconds": 1.178
+        },
+        {
+            "name": "truncated image rejected without public mutation",
+            "passed": true,
+            "seconds": 1.19
+        },
+        {
+            "name": "appended bytes rejected without public mutation",
+            "passed": true,
+            "seconds": 1.194
+        },
+        {
+            "name": "header version tamper rejected without public mutation",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "oversized clear header rejected without public mutation",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "authenticated unsafe path rejected 736974652f2e2e2f2e2e2f6573636170652e706870",
+            "passed": true,
+            "seconds": 2.372
+        },
+        {
+            "name": "authenticated unsafe path rejected 2f6162736f6c7574652e706870",
+            "passed": true,
+            "seconds": 2.362
+        },
+        {
+            "name": "authenticated unsafe path rejected 736974652f433a5c657363617065",
+            "passed": true,
+            "seconds": 2.338
+        },
+        {
+            "name": "authenticated unsafe path rejected 736974652f2f656d707479",
+            "passed": true,
+            "seconds": 2.356
+        },
+        {
+            "name": "authenticated unsafe path rejected 736974652f626164006e616d65",
+            "passed": true,
+            "seconds": 2.342
+        },
+        {
+            "name": "authenticated duplicate entries rejected",
+            "passed": true,
+            "seconds": 2.349
+        },
+        {
+            "name": "authenticated file shadows directory rejected",
+            "passed": true,
+            "seconds": 2.357
+        },
+        {
+            "name": "authenticated file hash mismatch rejected",
+            "passed": true,
+            "seconds": 2.345
+        },
+        {
+            "name": "authenticated oversized payload declaration rejected",
+            "passed": true,
+            "seconds": 2.368
+        },
+        {
+            "name": "source symbolic link rejected",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "unreadable source fails explicitly",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "source changes during backup reject image",
+            "passed": true,
+            "seconds": 0.02
+        },
+        {
+            "name": "private staging inside web root rejected",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "existing public directory permissions never changed",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "portable table schema accepted by validation positive control",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "unsafe database schema rejected 078f69a941",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "unsafe database schema rejected f9fbe187c4",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "unsafe database schema rejected 4bb36f947d",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "unsafe database schema rejected 4d27ab12bd",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "unsafe database schema rejected 8bafbd25de",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "row verification accepts reordered exact rows",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "row verification rejects duplicate-pair XOR cancellation",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "row verification rejects numeric value coercion",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "default restore seals only the restored copy and declares exact three policy files",
+            "passed": true,
+            "seconds": 3.674
+        },
+        {
+            "name": "post-seal failure fully recovers unsealed authoring target even with preserved policy paths",
+            "passed": true,
+            "seconds": 3.643
+        },
+        {
+            "name": "strict-types config remains valid and owner-only mode never widened",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "unsafe config prefixes and namespaces are rejected before deployment",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "all private plaintext stages removed",
+            "passed": true,
+            "seconds": 0
+        }
+    ],
+    "fixture": "Synthetic binary/UTF-8/dotfile/empty-directory source; fake DB unit adapter. Separate real MySQL integration covers SQL semantics."
+}

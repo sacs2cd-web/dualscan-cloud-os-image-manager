@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "testedProductionAsset": "assets/manager.js",
+  "productionAssetSha256": "6af174e9685cceb6120d486e213dc6ed42460f150f8ffbf0b735ac2ea24089e2",
+  "method": "Executed actual production request function in Node VM with observed fetch URLs",
+  "cases": [
+    {
+      "name": "plain-root",
+      "passed": true,
+      "path": "/",
+      "restRoute": "/dualscan-cloud/v1/images"
+    },
+    {
+      "name": "plain-index-subdirectory",
+      "passed": true,
+      "path": "/blog/index.php",
+      "restRoute": "/dualscan-cloud/v1/jobs/abc/run"
+    },
+    {
+      "name": "pretty-root",
+      "passed": true,
+      "path": "/wp-json/dualscan-cloud/v1/images",
+      "restRoute": null
+    },
+    {
+      "name": "pretty-subdirectory",
+      "passed": true,
+      "path": "/blog/wp-json/dualscan-cloud/v1/imports/abc/chunks",
+      "restRoute": null
+    },
+    {
+      "name": "non-json-maintenance-response",
+      "passed": true
+    }
+  ]
+}

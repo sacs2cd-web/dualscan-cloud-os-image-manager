@@ -1,0 +1,50 @@
+{
+    "passed": true,
+    "scope": "Actual MySQL, staged-only roles/capabilities; disposable target FK tables, no source account changes",
+    "cases": {
+        "ordinaryEditorRetained": {
+            "passed": true,
+            "removedIds": [
+                "1",
+                "2"
+            ]
+        },
+        "customRoleWithManageOptionsDetected": {
+            "passed": true,
+            "removedIds": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "directPluginEscalationCapabilityDetected": {
+            "passed": true,
+            "removedIds": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "usersForeignKeyRejectedBeforeDeployment": {
+            "passed": true,
+            "rejection": "Sealed administrative-principal removal cannot preserve unknown foreign-key dependencies on WordPress users. Use an explicit attribution adapter or offline authoring recovery."
+        },
+        "usersForeignKeyRejectedBeforeAccountDeletion": {
+            "passed": true,
+            "rejection": "WordPress users have foreign-key dependents; sealed principal removal requires an explicit attribution adapter."
+        },
+        "foreignKeyPluginRowPreserved": {
+            "passed": true,
+            "payloadHex": "6669787475726500FF"
+        },
+        "visibleCrossDatabaseForeignKeyRejected:outbound": {
+            "passed": true,
+            "rejection": "Cross-database foreign-key dependencies require a dedicated migration plan."
+        },
+        "visibleCrossDatabaseForeignKeyRejected:inbound": {
+            "passed": true,
+            "rejection": "Cross-database foreign-key dependencies require a dedicated migration plan."
+        }
+    },
+    "sourceDatabaseClassSha256": "9a4cac6b8e0995bacd14fc995a4b42fb53882335270d43fd24607d1aeb221b74"
+}

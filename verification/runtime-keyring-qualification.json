@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "qualifiedAtUtc": "2026-10-16T23:10:42.909259+00:00",
+  "pluginVersion": "1.0.1",
+  "scope": "Exclusively owned disposable WordPress sites and MySQL databases on localhost; synthetic data only; no live site deployment.",
+  "allInstalledFilesMatchRecordedHttpTestedManifest": true,
+  "httpTestedInstalledFileCount": 30,
+  "allCurrentSourceIdenticalToHttpTestedSource": false,
+  "sourceDifferences": [
+    {
+      "path": "bin/README.md",
+      "testedSha256": "9570efcb25041073792837df8444ab78b5c7cb96e85f9b78f0806249f76fd376",
+      "currentSha256": "cc714118b9fa3293917795b382a21b76548ac5c3cfd876419b6f6261dc1ca5b4",
+      "scope": "Non-executable operator documentation.",
+      "timing": "After the installed fixture was last synchronized.",
+      "executable": false
+    },
+    {
+      "path": "includes/class-image-codec.php",
+      "testedSha256": "1f1d8038326d49e7eec4005d5a544146298c530c186679a6509c1511fef23c02",
+      "currentSha256": "a3131d67aafb7d94aced902cd85bb1e6ccb83ebcc5457a5a43b7bfb48b8205b6",
+      "scope": "Authentication failure wording only; encryption format, derivation and record validation are unchanged.",
+      "timing": "After the HTTP run began.",
+      "executable": true
+    },
+    {
+      "path": "includes/class-safe-files.php",
+      "testedSha256": "85081791186c65e1d4ec6ead431ad65e712c609a1800690530b73dc38d3c619a",
+      "currentSha256": "16b5ed4233f556671a5fa6d60e5f8f689854250fbb1a0654f75a2ecdc016da72",
+      "scope": "Private-directory creation tolerates a concurrent successful mkdir; existing private-path validation remains.",
+      "timing": "Before HTTP execution but after the disposable installed fixture was last synchronized.",
+      "executable": true
+    },
+    {
+      "path": "includes/class-server-keyring.php",
+      "testedSha256": "dc05ec67f75732816147b53498935fb8893aae9f6c6eb7e5607feb2b6c36fb51",
+      "currentSha256": "bb7ec4ab9efc1c19f8bbe2adb66a9332cb42242b146f6c4e3a0f85d6af4a4201",
+      "scope": "Private lock creation uses owner-only umask and exclusive creation, then validates an existing lock before opening it.",
+      "timing": "Before HTTP execution but after the disposable installed fixture was last synchronized.",
+      "executable": true
+    }
+  ],
+  "qualificationInterpretation": "The full real WordPress/wpdb HTTP roundtrip passed against the exact installed source recorded in runtime-plugin-files.json. Current production differs in three code files plus non-executable documentation. Current-source 41 engine tests, 21 keyring tests, 18 PHP lint checks and an independent fresh 10-case native PHP keyring probe pass against the current versions. The source deltas are disclosed rather than claiming a repeated full WordPress HTTP run against them.",
+  "newEncryptionMode": {
+    "imagePasswordInputsOrParametersUsed": false,
+    "randomPrivateMasterBytes": 32,
+    "masterOutsideDocumentRootAndProject": true,
+    "masterFileMode": "0600",
+    "folderSuppliesContextNotSecretEntropy": true,
+    "matchingMasterAndFolderRequiredOnDestination": true,
+    "wrongMasterOrFolderDeniedBeforeTargetMutation": true,
+    "masterRawHexBase64AndDerivedSecretAbsentFromHttpImageManifestJobsAndJavaScript": true,
+    "noRawKeysInReports": true
+  },
+  "summary": {
+    "nativeFullWordPressCases": 12,
+    "focusedPolicyAndForeignKeyCases": 8,
+    "historicalAuthoringHttpPermissionCases": 19,
+    "deploymentApprovalRefusalCases": 17,
+    "sealedHttpCasesIncludingOldOwnerCookie": 23,
+    "publicRouterCases": 21,
+    "javascriptEndpointRegressionCases": 5,
+    "independentCurrentNativeKeyringCases": 10,
+    "currentEngineUnitCases": 41,
+    "currentServerKeyringUnitCases": 21,
+    "currentEnginePhpLintFiles": 18,
+    "databaseTables": 14,
+    "fileAndDirectoryEntries": 4306,
+    "imageBytes": 111375929,
+    "imageSha256": "6c431e45c760954bce0f2d8338566dad8e55fc386f36f73b7bdff5911c155ca4",
+    "httpRoundtripSeconds": 55.403,
+    "wordpressVersion": "7.1.3",
+    "phpVersion": "8.2.0",
+    "mysqlVersion": "5.7.39"
+  },
+  "restorePolicy": {
+    "allImageAuthenticationBeforePublicMutation": true,
+    "rollbackImageEncrypted": true,
+    "administrativeUsersDeleted": [
+      "1",
+      "2"
+    ],
+    "nonAdministrativeUserPreserved": true,
+    "allSessionsAndApplicationPasswordRecordsCleared": true,
+    "contentAndOtherFieldsPreservedExceptDeclaredAuthorReassignment": true,
+    "disabledAttributionPrincipalCreated": true,
+    "threeDeclaredPolicyFilesOnly": true,
+    "oldOwnerCookiesCannotReachAdministration": true,
+    "logoutExpiredCookieHeaders": 17,
+    "redirectToPublicHomepage": true
+  },
+  "limits": {
+    "fullHttpRerunAgainstThreeDisclosedCurrentCodeDifferences": false,
+    "nginxExecuted": false,
+    "dockerExecuted": false,
+    "liveHostingTested": false,
+    "crossDomainMigrationTested": false,
+    "largeProductionDatabaseLoadTested": false
+  },
+  "ownedRuntimeStopped": true,
+  "closedPorts": [
+    {
+      "port": 33617,
+      "listenerPresent": false
+    },
+    {
+      "port": 8767,
+      "listenerPresent": false
+    },
+    {
+      "port": 8768,
+      "listenerPresent": false
+    },
+    {
+      "port": 8769,
+      "listenerPresent": false
+    }
+  ],
+  "evidence": {
+    "runtime-environment.json": {
+      "bytes": 1228,
+      "sha256": "6318ff084713e2f0101cd885affea65cdc6f3a950a679800414e9874136bdf2e"
+    },
+    "runtime-fixtures.json": {
+      "bytes": 2317,
+      "sha256": "f60a56e8540a50a65e0640364abd284648d83402b0472027f0db049380f87b89"
+    },
+    "runtime-plugin-files.json": {
+      "bytes": 4580,
+      "sha256": "8f4d97436fde1e810fa01cc4286d83a3d30dd3762cc719bb6d649f82e8565bca"
+    },
+    "runtime-plugin-files-1.0.0.json": {
+      "bytes": 4290,
+      "sha256": "b3595d7e0d9f7e55be558781bf69ab6d02b7d26110c838c45d0a0fe1914baa41"
+    },
+    "runtime-keyring-source-delta.patch": {
+      "bytes": 9597,
+      "sha256": "95dc12505a00e8fa0edbf57215137c0319a0e50853c2c4e49b4ff60d6dad7daa"
+    },
+    "runtime-keyring-shutdown.json": {
+      "bytes": 916,
+      "sha256": "f26d9bbb07286b61c3a8ce3930ca28d40df44358847a6c52fa11aaeae414c543"
+    },
+    "integration-http-keyring-roundtrip.json": {
+      "bytes": 6222,
+      "sha256": "4463f3a7b1bdef7d951a5149cdaaddce71f8c7d540aae8c7da413f073f7fb511"
+    },
+    "integration-http-keyring-roundtrip.txt": {
+      "bytes": 5094,
+      "sha256": "5c7cca7d89a90498ec0638c56a96b790820885652e57f105f365e2e8c490c4be"
+    },
+    "integration-server-keyring.json": {
+      "bytes": 2135,
+      "sha256": "7f08ce6a9b1524c29d8f12b889938e40f8ed983c42223daa9683fdfd7b3c57ce"
+    },
+    "integration-server-keyring.txt": {
+      "bytes": 84,
+      "sha256": "005ea5f4916e43e91834c6fd51eb2720e14212908565995632f7e03df1e1d9ea"
+    },
+    "integration-server-keyring-current.json": {
+      "bytes": 2163,
+      "sha256": "18ca823e3fff083ac3f74f8d5a05268a88e576ba2c46c77a48e7a8779314efd6"
+    },
+    "integration-server-keyring-current.txt": {
+      "bytes": 92,
+      "sha256": "e9dec4c1646f86cb9e420b2054c669b8f73bc02f30b08dd561e607bc5fec4fe1"
+    },
+    "integration-manager-keyring-endpoints.json": {
+      "bytes": 952,
+      "sha256": "34b6f82ec693270d898d9ee487f87ee26e540dbf80603a27adb11137f44f6afa"
+    },
+    "integration-manager-keyring-endpoints.txt": {
+      "bytes": 26,
+      "sha256": "1c2fadb382a914d3024e1f1e686214a7e1dc58ebe7ff907d535c069c5b433b34"
+    },
+    "integration-public-router-keyring.json": {
+      "bytes": 2206,
+      "sha256": "268a4cd9557a6b81ee5a0aa916a97d89631105891e2a59711ebe73e355197e92"
+    },
+    "integration-public-router-keyring.txt": {
+      "bytes": 95,
+      "sha256": "6fe395dd9a9375c462185765b4ea7293ef505323b23659abd86f93ffbfceda52"
+    },
+    "integration-roundtrip.json": {
+      "bytes": 1410014,
+      "sha256": "ff37e841700eb0e01c6fe6bf684f862c2ab82ae12ea4c7c4635a3f82017a85cb"
+    },
+    "integration-roundtrip.txt": {
+      "bytes": 118,
+      "sha256": "39a299219516d90a6051ad1203e4b43ddb78a601eb781f2fae206a3d601edf13"
+    },
+    "integration-policy-preflight.json": {
+      "bytes": 1873,
+      "sha256": "1574ab95bfe1cf7728f4b2a55f552d8cc956e25379c8db51f2b7e59119d00d3d"
+    },
+    "integration-policy-preflight.txt": {
+      "bytes": 85,
+      "sha256": "9676e173b4db38fdb998f220d64df9eb210cf97276631af80f02661c24be829a"
+    },
+    "integration-database-adapter.json": {
+      "bytes": 4764,
+      "sha256": "ae9eacd40453276ae94024eda9beb2910a17e0c8de04955bdb5b901922e56230"
+    },
+    "integration-http-permissions.json": {
+      "bytes": 2132,
+      "sha256": "09a56184bba9a1fe61fda6dc11f9c20cbc2d0dc502b0e50a1ef676b5cba9b1fc"
+    },
+    "engine-source-sha256.json": {
+      "bytes": 2874,
+      "sha256": "c365285a3f3590a09e1c6dc80c21a6ef62b1281ec715d2288555b5341c51fa5e"
+    },
+    "engine-unit.json": {
+      "bytes": 6468,
+      "sha256": "d846d1ee193bd51e1ca3aab767734c692f5445cd96c4d7f9f0c48a6b074fe14c"
+    },
+    "engine-unit.txt": {
+      "bytes": 2378,
+      "sha256": "481a016bbc999c71ce4a58a42de68daf9f62f643da3d29e88e27fc887761a0b3"
+    },
+    "server-keyring-unit.json": {
+      "bytes": 3680,
+      "sha256": "41ed1ccca78eb9bf964ada5e8c2ceec9bebb3578d9c2d77457d44bc0e066d37e"
+    },
+    "server-keyring-unit.txt": {
+      "bytes": 1512,
+      "sha256": "5dd67896656a072de8161f997f641734820f104411749eda9bc3fe96b1be2a3a"
+    },
+    "engine-lint.json": {
+      "bytes": 3062,
+      "sha256": "7b60271cf5947661577eb973836c14443fd0af5167dfb3c104afab6eae53f017"
+    },
+    "authoring-workspace-server-key.jpg": {
+      "bytes": 146822,
+      "sha256": "4af365126e68958962b6bedd4824b22cb1a9d41a7bce3f0b1d9c68957415384b"
+    }
+  }
+}

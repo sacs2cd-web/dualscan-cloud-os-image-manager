@@ -1,0 +1,1 @@
+{"passed":true,"tables":14,"seconds":0.217,"report":"verification\/integration-database-adapter.json"}

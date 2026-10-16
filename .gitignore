@@ -1,0 +1,7 @@
+*.key
+*.dualscan
+.env
+wp-config.php
+__pycache__/
+*.pyc
+.DS_Store

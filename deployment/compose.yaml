@@ -1,0 +1,57 @@
+# Restored site and database must already exist. No paid services are launched.
+# Build from the source root: docker compose -f deployment/compose.yaml up -d --build
+services:
+  php:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    restart: unless-stopped
+    read_only: true
+    volumes:
+      - type: bind
+        source: ${DUALSCAN_RESTORED_SITE:?Set an absolute path to the sealed restored site}
+        target: /var/www/html
+        read_only: true
+    tmpfs:
+      - /tmp
+      - /usr/local/var/run
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - application
+  web:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    read_only: true
+    depends_on:
+      - php
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ${DUALSCAN_RESTORED_SITE:?Set an absolute path to the sealed restored site}:/var/www/html:ro
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - application
+  cron:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    restart: unless-stopped
+    read_only: true
+    entrypoint: ["/bin/sh", "-c", "php /opt/dualscan/runtime-entrypoint.php --verify-only && while :; do su --shell /bin/sh --command 'php /var/www/html/wp-cron.php' www-data; sleep 60; done"]
+    volumes:
+      - ${DUALSCAN_RESTORED_SITE:?Set an absolute path to the sealed restored site}:/var/www/html:ro
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - application
+networks:
+  application:

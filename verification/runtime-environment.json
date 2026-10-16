@@ -1,0 +1,40 @@
+{
+  "createdAt": "2026-10-16T22:26:51.338987+00:00",
+  "runtime": "Local native PHP and MySQL (existing MAMP binaries, no installed packages or changed global services)",
+  "wordpress": {
+    "version": "7.1.3",
+    "source": "https://wordpress.org/latest.tar.gz",
+    "tarSha256": "d2a09acb6a15e3b9c471d72557753c266d6f41a79ed19bfe04cbfe49e283b2a5",
+    "officialMd5ChecksumsUrl": "https://api.wordpress.org/core/checksums/1.0/?version=7.1.3&locale=en_US",
+    "officialChecksumsMatched": 3782
+  },
+  "php": {
+    "version": "8.2.0",
+    "executable": "/Applications/MAMP/bin/php/php8.2.0/bin/php",
+    "extensions": [
+      "openssl",
+      "mysqli",
+      "pdo_mysql",
+      "zip"
+    ]
+  },
+  "mysql": {
+    "version": "5.7.39",
+    "listen": "127.0.0.1:33617",
+    "freshDisposableDatadir": true,
+    "sourceDatabase": "dualscan_source",
+    "targetDatabase": "dualscan_target"
+  },
+  "wordpressInstall": {
+    "sourceUrl": "http://127.0.0.1:8767",
+    "targetUrl": "http://127.0.0.1:8768",
+    "fresh12CoreTablesEach": true,
+    "testDataOnly": true
+  },
+  "scope": {
+    "noLiveSites": true,
+    "noUserCredentialsRead": true,
+    "noThirdPartyPluginExecution": true,
+    "testRuntimeOutsideDeliverableSource": true
+  }
+}

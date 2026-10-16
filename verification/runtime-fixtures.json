@@ -1,0 +1,66 @@
+{
+    "fixturePostId": 14,
+    "authoredPublishedPostIds": [
+        14,
+        15
+    ],
+    "administratorCommentIds": [
+        4,
+        5
+    ],
+    "administratorLinkIds": [
+        1,
+        2
+    ],
+    "editorCredentialFixtureUserId": 3,
+    "customTables": [
+        "wp_dualscan_fixture",
+        "independent_plugin_data"
+    ],
+    "files": {
+        "wp-content\/plugins\/fixture-active\/fixture-active.php": {
+            "bytes": 97,
+            "sha256": "45abc9df47ed87a59e5827270d1ae55648779dcf74593dc005bbcb208ac71945"
+        },
+        "wp-content\/plugins\/fixture-inactive\/fixture-inactive.php": {
+            "bytes": 51,
+            "sha256": "36f9ecd00e197dd349ee2c259ac6488993203471e8d8f5a09167210d338da512"
+        },
+        "wp-content\/mu-plugins\/fixture-mu.php": {
+            "bytes": 45,
+            "sha256": "87f16ef21ca259ba0854ed4a1de5935fc178399ffbd627751a8bc0a951ea80ed"
+        },
+        "wp-content\/themes\/fixture-theme\/style.css": {
+            "bytes": 54,
+            "sha256": "77f1d6a1d15f1125b8eca4a2c41767b983b9e6e606f2202502293db2b325ea20"
+        },
+        "wp-content\/themes\/fixture-theme\/index.php": {
+            "bytes": 38,
+            "sha256": "6c71915fad0805f960c54bfcf0a71fcdb6efe4dc44553535ea3bd86dc0959327"
+        },
+        "wp-content\/uploads\/2026\/10\/été\/写真.bin": {
+            "bytes": 65792,
+            "sha256": "120c518a83325c66464701a6ee080302f332bc768ea3f60473b209f1bfb091df"
+        },
+        "wp-content\/uploads\/2026\/10\/photo.png": {
+            "bytes": 77,
+            "sha256": "6631f1a5f9bc15a885803ea5b40bd11215469101510d708c0bc0ab1454cfc4a0"
+        },
+        ".dualscan-fixture-hidden": {
+            "bytes": 17,
+            "sha256": "e78aa198257a71ea0240fb1c4fda5d3db4fd613342f1b15f7f0847e4123ffa9e"
+        },
+        "custom-root-data.json": {
+            "bytes": 47,
+            "sha256": "d02441a79c22f28b0ba8f051f0f9a3e0f526a0187badb3183b643851a93bffbc"
+        },
+        "wp-content\/uploads\/empty-file": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+    },
+    "activePlugins": [
+        "dualscan-cloud-os-image-manager\/dualscan-cloud-os-image-manager.php",
+        "fixture-active\/fixture-active.php"
+    ]
+}

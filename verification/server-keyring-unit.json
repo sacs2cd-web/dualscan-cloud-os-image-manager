@@ -1,0 +1,112 @@
+{
+    "passed": 21,
+    "failed": 0,
+    "scope": "Synthetic keyring secrets; real encryption and authenticated engine restore with a fake database adapter. No key bytes are recorded.",
+    "tests": [
+        {
+            "name": "missing key inspection never generates a replacement master",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "creation stores random owner-only 32-byte master and derives stable context key",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "normal status contains no master or derived passphrase",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "explicit offline export verifies secret file without printing key bytes",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "same private master and folder derive the same key on another server",
+            "passed": true,
+            "seconds": 0.001
+        },
+        {
+            "name": "server-folder key creates an authenticated image without storing any key in manifest or site",
+            "passed": true,
+            "seconds": 2.367
+        },
+        {
+            "name": "provisioned destination restores actual image bytes and database value",
+            "passed": true,
+            "seconds": 3.531
+        },
+        {
+            "name": "wrong random server master fails before target file or DB mutation",
+            "passed": true,
+            "seconds": 1.182
+        },
+        {
+            "name": "same master but different folder context fails before target file or DB mutation",
+            "passed": true,
+            "seconds": 1.196
+        },
+        {
+            "name": "different folder context has a different nonsecret key identifier",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "public-root key storage is rejected before a directory or key is created",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "public-root key export and import are refused",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "key permissions are validated without silently widening or repairing them",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "symbolic-link key files are never followed",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "symbolic-link keyring directories are refused",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "invalid key lengths fail instead of replacing the old file",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "existing different keys and existing export paths are never overwritten",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "publicly readable keyring directories are rejected without chmod changes",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "invalid folder contexts cannot select arbitrary key files",
+            "passed": true,
+            "seconds": 0
+        },
+        {
+            "name": "parallel first use produces one stable master without a replacement race",
+            "passed": true,
+            "seconds": 0.042
+        },
+        {
+            "name": "actual private master and derived key do not appear in distributable source",
+            "passed": true,
+            "seconds": 0.002
+        }
+    ]
+}

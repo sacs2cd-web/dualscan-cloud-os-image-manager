@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "scope": "Exact production code copied into exclusively owned disposable WordPress sites",
+  "files": {
+    "assets/deployment.css": {
+      "bytes": 753,
+      "sha256": "f1bd0d2dc22ee7fe366aa732b4c3d6c5734553a9abab202c372af5097d314c84"
+    },
+    "assets/manager.css": {
+      "bytes": 11265,
+      "sha256": "76c875dcfcd48b743996c3e6323a0d2c61dd0e39a460ab9083f5c4c68a3f78b3"
+    },
+    "assets/manager.js": {
+      "bytes": 12005,
+      "sha256": "6af174e9685cceb6120d486e213dc6ed42460f150f8ffbf0b735ac2ea24089e2"
+    },
+    "assets/public-runtime.svg": {
+      "bytes": 1604,
+      "sha256": "6c96d060c34919a2fabfb64935f7a8a0ec710abde9682eeaa8e9a1d286f0cdbd"
+    },
+    "bin/README.md": {
+      "bytes": 3651,
+      "sha256": "f9323ae6981a3515fb4bec4a3f8daaa67465862b4efaaa3b5b3c2150c22935e1"
+    },
+    "bin/appliance.php": {
+      "bytes": 1813,
+      "sha256": "56057c427559dce6fe8fecaea10e07322cda09c905416bee2ab0c94eef0f76fa"
+    },
+    "bin/dualscan.php": {
+      "bytes": 2627,
+      "sha256": "47dce66256c8a1594b2e084885b52403626439451b57f8c888b09a9062cd96a4"
+    },
+    "deployment/Dockerfile": {
+      "bytes": 389,
+      "sha256": "adad58cb112d17338b6cdade860f4b7bc20ff55c4b2fbc55f90bbc571ffd8d8b"
+    },
+    "deployment/README.md": {
+      "bytes": 5418,
+      "sha256": "8933e1bc0576c3eb9e822bd2d35f6810e9e23ac34f9081ec4022bccfbb6ee88d"
+    },
+    "deployment/compose.yaml": {
+      "bytes": 1649,
+      "sha256": "78c0f864c65d66cffa8a06ae165598aaf2e2ed242f1b7d0a3664d3381c2e6163"
+    },
+    "deployment/nginx.conf": {
+      "bytes": 1688,
+      "sha256": "65dc7ad2b7f711e2cc80001514a11fe1533523ecbd30302662af86c73c97ebbf"
+    },
+    "deployment/public-router.php": {
+      "bytes": 2282,
+      "sha256": "310b4c873ac3b59b7affd3ea9f10d1fa2ed83efbc1deda129eae3a11e50d1d10"
+    },
+    "deployment/runtime-entrypoint.php": {
+      "bytes": 1812,
+      "sha256": "9cd99f17e33a6efe66b8081257b5096ccd9b3dd311f3f156d029883a240c9c6e"
+    },
+    "dualscan-cloud-os-image-manager.php": {
+      "bytes": 891,
+      "sha256": "a528958c972dcb84786988afcf13f0ab1daaf6a862610859b00f18ca4dc3ea4b"
+    },
+    "includes/class-appliance-deployment.php": {
+      "bytes": 10060,
+      "sha256": "e957cd604ceaee972d0d688a8483707c40d19fad2cacadb0b27f1c7b9b6f218a"
+    },
+    "includes/class-deployment-terms.php": {
+      "bytes": 3107,
+      "sha256": "9ec169185ec55101bfc92acdec23ea423b13503fa0c64b379b51fd243cfb6244"
+    },
+    "includes/class-engine-exception.php": {
+      "bytes": 129,
+      "sha256": "1a03f406ab5e51910eb4aa60b20d8af457cf5a35361a4f72e9e7c532bd4a27e1"
+    },
+    "includes/class-image-codec.php": {
+      "bytes": 5852,
+      "sha256": "1f1d8038326d49e7eec4005d5a544146298c530c186679a6509c1511fef23c02"
+    },
+    "includes/class-image-manager.php": {
+      "bytes": 18922,
+      "sha256": "929b5b2d11da8eb8ee7d8700cc4f9763d35a6d87431eac0f509bc819f2b96f5b"
+    },
+    "includes/class-logical-database.php": {
+      "bytes": 29694,
+      "sha256": "9a4cac6b8e0995bacd14fc995a4b42fb53882335270d43fd24607d1aeb221b74"
+    },
+    "includes/class-managed-access.php": {
+      "bytes": 5569,
+      "sha256": "c06f3b4b270378fd58556a7cee562d8abbba5b4c53ed93050c25b9acc1e53210"
+    },
+    "includes/class-pdo-database.php": {
+      "bytes": 487,
+      "sha256": "b9fad1e444a3760098dc326521c27c6a76f834da0abf7dd40e6a966a4f5ab408"
+    },
+    "includes/class-plugin.php": {
+      "bytes": 33231,
+      "sha256": "83b92d3fadf1dc07d119bb749a694a9de356074e6cd65ab01457ffcda3901fc7"
+    },
+    "includes/class-safe-files.php": {
+      "bytes": 8743,
+      "sha256": "85081791186c65e1d4ec6ead431ad65e712c609a1800690530b73dc38d3c619a"
+    },
+    "includes/class-wordpress-database.php": {
+      "bytes": 865,
+      "sha256": "ca614644c4ad2879db2a8e01b91d093befbbb8d4ab3811ae92f9ef22970ace77"
+    },
+    "includes/engine-bootstrap.php": {
+      "bytes": 576,
+      "sha256": "0d5004acc3d5d00d0a9eccaf4932e33670a9e1478131f0aa4d25cee6c728ce1b"
+    },
+    "includes/interface-database-adapter.php": {
+      "bytes": 338,
+      "sha256": "31a87ecee8ebbe866be8bf1cdaf83994ff52294ce5d993456e8e56ddb65d5cfe"
+    },
+    "runtime/dualscan-appliance-guard.php": {
+      "bytes": 4691,
+      "sha256": "e65f4c9a26b1a1db8dbd819ffb3b9422009ad8e0eef6b1b7d1d275818b8185a6"
+    }
+  }
+}

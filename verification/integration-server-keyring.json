@@ -1,0 +1,50 @@
+{
+    "passed": true,
+    "runtime": "Native PHP/OpenSSL authenticated image codec and actual filesystem key permissions",
+    "scope": "Synthetic small image and isolated private keyrings outside both document roots; no user keys",
+    "cases": {
+        "privatePersistentRandomMaster": {
+            "passed": true,
+            "bytes": 32,
+            "fileMode": "0600",
+            "directoryMode": "0700",
+            "keyId": "f11ab0f769b0838ecab1b55c2e0f9b06"
+        },
+        "masterAndDerivedSecretNotEmbeddedInImage": {
+            "passed": true
+        },
+        "sameFolderAndProvisionedMasterDecryptOnDestination": {
+            "passed": true
+        },
+        "wrongMasterCannotOpenImage": {
+            "passed": true,
+            "rejection": "Incorrect password or damaged image authentication."
+        },
+        "sameMasterWrongFolderCannotOpenImage": {
+            "passed": true,
+            "rejection": "Incorrect password or damaged image authentication."
+        },
+        "inspectDoesNotGenerateMissingMaster": {
+            "passed": true,
+            "rejection": "This server has no key for plugin folder dualscan-cloud-os-image-manager. Provision the matching private server key before opening an image."
+        },
+        "publicKeyringDirectoryRejected": {
+            "passed": true,
+            "rejection": "Server keys must stay outside every public document root."
+        },
+        "publicMasterExportRejected": {
+            "passed": true,
+            "rejection": "Server keys must stay outside every public document root."
+        },
+        "folderTraversalRejected": {
+            "passed": true,
+            "rejection": "Use the installed plugin folder basename as the server key context. Paths and traversal are not accepted."
+        },
+        "worldReadableMasterRejected": {
+            "passed": true,
+            "rejection": "Server key files must be regular owner-only files with mode 600, not symbolic links."
+        }
+    },
+    "serverKeyringSourceSha256": "dc05ec67f75732816147b53498935fb8893aae9f6c6eb7e5607feb2b6c36fb51",
+    "rawKeysWrittenToReports": false
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "YAML parse and declared restart/read-only/listener policy, not Docker execution",
+  "services": [
+    "php",
+    "web",
+    "cron"
+  ],
+  "hostSshServiceDefined": false,
+  "dockerStackExecuted": false,
+  "nginxConfigurationExecuted": false
+}

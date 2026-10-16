@@ -1,0 +1,50 @@
+{
+    "passed": true,
+    "runtime": "Native PHP/OpenSSL authenticated image codec and actual filesystem key permissions",
+    "scope": "Synthetic small image and isolated private keyrings outside both document roots; no user keys",
+    "cases": {
+        "privatePersistentRandomMaster": {
+            "passed": true,
+            "bytes": 32,
+            "fileMode": "0600",
+            "directoryMode": "0700",
+            "keyId": "105bd3ba40dc2b233cced5aa1e1b1670"
+        },
+        "masterAndDerivedSecretNotEmbeddedInImage": {
+            "passed": true
+        },
+        "sameFolderAndProvisionedMasterDecryptOnDestination": {
+            "passed": true
+        },
+        "wrongMasterCannotOpenImage": {
+            "passed": true,
+            "rejection": "The image encryption key does not match, or the image is damaged."
+        },
+        "sameMasterWrongFolderCannotOpenImage": {
+            "passed": true,
+            "rejection": "The image encryption key does not match, or the image is damaged."
+        },
+        "inspectDoesNotGenerateMissingMaster": {
+            "passed": true,
+            "rejection": "This server has no key for plugin folder dualscan-cloud-os-image-manager. Provision the matching private server key before opening an image."
+        },
+        "publicKeyringDirectoryRejected": {
+            "passed": true,
+            "rejection": "Server keys must stay outside every public document root."
+        },
+        "publicMasterExportRejected": {
+            "passed": true,
+            "rejection": "Server keys must stay outside every public document root."
+        },
+        "folderTraversalRejected": {
+            "passed": true,
+            "rejection": "Use the installed plugin folder basename as the server key context. Paths and traversal are not accepted."
+        },
+        "worldReadableMasterRejected": {
+            "passed": true,
+            "rejection": "Server key files must be regular owner-only files with mode 600, not symbolic links."
+        }
+    },
+    "serverKeyringSourceSha256": "bb7ec4ab9efc1c19f8bbe2adb66a9332cb42242b146f6c4e3a0f85d6af4a4201",
+    "rawKeysWrittenToReports": false
+}

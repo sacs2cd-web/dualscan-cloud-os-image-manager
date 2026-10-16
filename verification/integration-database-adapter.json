@@ -1,0 +1,106 @@
+{
+    "passed": true,
+    "runtime": "Native PHP 8.2.0, real MySQL 5.7.39",
+    "scope": "All 14 tables of the disposable WordPress database; no public website/file changes",
+    "seconds": 0.217,
+    "rowEncoding": "raw-column-bytes-utc-v1",
+    "allRawColumnBytesAndDdlMatched": true,
+    "sourceUnchanged": true,
+    "sourceTimeZoneRestored": "+05:30",
+    "targetTimeZoneRestored": "-07:00",
+    "sessionSqlModesRestored": true,
+    "tables": {
+        "independent_plugin_data": {
+            "rows": 1,
+            "rowRawBytesSha256": "cc5258fa507009f4709d2f2e979d98008761acd5dad6aa4c97ffa9a2f032e138",
+            "ddlSha256": "35e45e2ef2a06637b51c31fe81cfa85793d7379e04d06469df6b6aaece7f6b61"
+        },
+        "wp_commentmeta": {
+            "rows": 0,
+            "rowRawBytesSha256": "35786c7117b4e38d0f169239752ce71158266ae2f6e4aa230fbbb87bd699c0e3",
+            "ddlSha256": "80191a7484be8fb287592ba0e79628f575e73376bb281d399165b07fd585d321"
+        },
+        "wp_comments": {
+            "rows": 1,
+            "rowRawBytesSha256": "3285f32eab1039f8f2e1ec20870effa3e9f40565ec8f707c85238c2706cff9d6",
+            "ddlSha256": "9f34e9139c4354f48289afbd38571781b88fdc4358f7ebca88ba1c7ec38464b6"
+        },
+        "wp_dualscan_fixture": {
+            "rows": 2,
+            "rowRawBytesSha256": "1ff24b0cabfec062a6a2975ec7003684e8e7463b11eed02f9bf570c24d95e91d",
+            "ddlSha256": "3bb8366f89af6e81981f8039c9fc4c3d3bcdaf7b806de13ac7109df075b05ea6"
+        },
+        "wp_links": {
+            "rows": 0,
+            "rowRawBytesSha256": "35786c7117b4e38d0f169239752ce71158266ae2f6e4aa230fbbb87bd699c0e3",
+            "ddlSha256": "282445d276f4eac83dc1c393124d3891af754eba52896acbb634d2ad0f7671dc"
+        },
+        "wp_options": {
+            "rows": 132,
+            "rowRawBytesSha256": "45891448e7a86b67446b48b1cf088ff1927adc468ddcdfeeb02292edd9336efd",
+            "ddlSha256": "b484e9ce0756d2e74b826fd0684d8b8bdffc01b2ebf62e06a00db141b71309cc"
+        },
+        "wp_postmeta": {
+            "rows": 12,
+            "rowRawBytesSha256": "47ac23ebfd4691f037ded0c2a9058148c169205be4e25834b6deb4a824f5562c",
+            "ddlSha256": "77585958d2e2e8d9fe054b42ccfb04c05e71b8e91004b73ba5e0a5b56012d369"
+        },
+        "wp_posts": {
+            "rows": 11,
+            "rowRawBytesSha256": "55e61cbbb4095092ddcfd78b7e62d604217be6869114279889abe3c347d336b6",
+            "ddlSha256": "31cdde037790630bc6b7e9cebe6526f666cc3cf29595db118cecf95650045b7b"
+        },
+        "wp_term_relationships": {
+            "rows": 6,
+            "rowRawBytesSha256": "547b892a951624f136cc2979e542f3656ff3dd316214b154feecb7272a62bcb8",
+            "ddlSha256": "11d962ba50b5e7dfd97b58fb95a662ffd71bf4b8f29ad4c17d36dbf91903474d"
+        },
+        "wp_term_taxonomy": {
+            "rows": 1,
+            "rowRawBytesSha256": "8b6e733c0a3cb94f3f129ee0ff82c8c6325028a0499103174af806cf4c4611b0",
+            "ddlSha256": "bbb72e2dd626dea00adb2f59c6be3422564825e671a337aa142825b2454de250"
+        },
+        "wp_termmeta": {
+            "rows": 0,
+            "rowRawBytesSha256": "35786c7117b4e38d0f169239752ce71158266ae2f6e4aa230fbbb87bd699c0e3",
+            "ddlSha256": "632a91b95bfcbdf6fb977b7c4584987565b663bcd21672f690ba65e9e3f27166"
+        },
+        "wp_terms": {
+            "rows": 1,
+            "rowRawBytesSha256": "42ca63e6b0f764b0c8ef413a290129cfb87434beae4a1bab20327905c6a38f82",
+            "ddlSha256": "80f0fdeb819593f75baefc5f539f624d58facf897757c92bfbfaa948e362e49d"
+        },
+        "wp_usermeta": {
+            "rows": 50,
+            "rowRawBytesSha256": "7c103c1749a2613dc5d5e2cdaa0ff1b38ae07f476a771c062f545d2bf5a58f00",
+            "ddlSha256": "fe0efe12aa61535934522a3b6ce6d20bb464dd622ba57180d4b40fd188f0508d"
+        },
+        "wp_users": {
+            "rows": 3,
+            "rowRawBytesSha256": "1b05a308cc368986711788e722a084a388abcd57ee7a8d6b89741f7ed83fd2d1",
+            "ddlSha256": "54ba3fb870bb0af0061e7c67a6322754d9a5619cee849c814f07d135cca85be8"
+        }
+    },
+    "mixedTypeFixture": [
+        {
+            "id": "1",
+            "latin1TextRaw": "E9F1FF",
+            "latin1VarcharRaw": "E9F1FF",
+            "unsigned_max": "18446744073709551615",
+            "bits8": "FF",
+            "bitOne": "1",
+            "timestampInstant": "1700000000",
+            "jsonValue": "{\"nested\": {\"null\": null, \"array\": [true, 0, -2], \"slash\": \"a/b\\\\c\", \"number\": 1.2345}, \"unicode\": \"日本語 💎\"}"
+        },
+        {
+            "id": "2",
+            "latin1TextRaw": "E9F1FF",
+            "latin1VarcharRaw": "E9F1FF",
+            "unsigned_max": "0",
+            "bits8": "0",
+            "bitOne": "0",
+            "timestampInstant": null,
+            "jsonValue": null
+        }
+    ]
+}

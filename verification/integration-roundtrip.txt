@@ -1,0 +1,1 @@
+{"passed":true,"cases":12,"seconds":53.606,"imageBytes":111347086,"report":"verification/integration-roundtrip.json"}

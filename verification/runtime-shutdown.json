@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "stoppedAtUtc": "2026-10-16T22:57:55.703580+00:00",
+  "phpListenersStopped": [
+    {
+      "pid": 41241,
+      "kind": "Owned localhost PHP listener"
+    },
+    {
+      "pid": 41242,
+      "kind": "Owned localhost PHP listener"
+    },
+    {
+      "pid": 52596,
+      "kind": "Owned localhost PHP listener"
+    }
+  ],
+  "ownedMysqlShutdownCompleted": true,
+  "scope": "Only exact task-owned PHP listeners and the isolated MySQL socket were stopped",
+  "runtimeDataRetainedOutsideProject": true
+}

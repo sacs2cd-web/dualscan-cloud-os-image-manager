@@ -1,0 +1,41 @@
+PASS complete filesystem + binary database roundtrip
+PASS preserved target wp-config.php
+PASS URL and prefix mismatch cannot mutate target
+PASS rollback after post-database failure restores original database and files
+PASS controlled rollback keeps preserved config and live maintenance guard
+PASS failed rollback returns stable error code and leaves maintenance guard
+PASS wrong password rejected without public mutation
+PASS ciphertext tamper rejected without public mutation
+PASS tag tamper rejected without public mutation
+PASS truncated image rejected without public mutation
+PASS appended bytes rejected without public mutation
+PASS header version tamper rejected without public mutation
+PASS oversized clear header rejected without public mutation
+PASS authenticated unsafe path rejected 736974652f2e2e2f2e2e2f6573636170652e706870
+PASS authenticated unsafe path rejected 2f6162736f6c7574652e706870
+PASS authenticated unsafe path rejected 736974652f433a5c657363617065
+PASS authenticated unsafe path rejected 736974652f2f656d707479
+PASS authenticated unsafe path rejected 736974652f626164006e616d65
+PASS authenticated duplicate entries rejected
+PASS authenticated file shadows directory rejected
+PASS authenticated file hash mismatch rejected
+PASS authenticated oversized payload declaration rejected
+PASS source symbolic link rejected
+PASS unreadable source fails explicitly
+PASS source changes during backup reject image
+PASS private staging inside web root rejected
+PASS existing public directory permissions never changed
+PASS portable table schema accepted by validation positive control
+PASS unsafe database schema rejected 078f69a941
+PASS unsafe database schema rejected f9fbe187c4
+PASS unsafe database schema rejected 4bb36f947d
+PASS unsafe database schema rejected 4d27ab12bd
+PASS unsafe database schema rejected 8bafbd25de
+PASS row verification accepts reordered exact rows
+PASS row verification rejects duplicate-pair XOR cancellation
+PASS row verification rejects numeric value coercion
+PASS default restore seals only the restored copy and declares exact three policy files
+PASS post-seal failure fully recovers unsealed authoring target even with preserved policy paths
+PASS strict-types config remains valid and owner-only mode never widened
+PASS unsafe config prefixes and namespaces are rejected before deployment
+PASS all private plaintext stages removed

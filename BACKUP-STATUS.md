@@ -1,3 +1,5 @@
-# Dualscan Cloud OS Image Manager
+# Private project backup
 
-Private source and release backup. The project presentation, screenshots, source, and verified release packages are being prepared.
+Source, release archives, artwork, real three-step recovery screenshots, licensing notes and qualification records are included. Operational keys, customer data and runtime databases remain outside the project.
+
+The repository is private. Publication is a separate decision.

@@ -1,0 +1,5 @@
+#dualscan-cloud .dc-terms{white-space:pre-wrap;overflow:auto;max-height:260px;background:#0f1421;border:1px solid #343d52;padding:15px;border-radius:10px;font:11px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#c7ccdc}
+#dualscan-cloud .dc-deployed{display:grid;grid-template-columns:minmax(180px,.8fr) 1.2fr;gap:28px;align-items:center;margin-bottom:24px}
+#dualscan-cloud .dc-deployed img{display:block;width:100%;height:auto;border-radius:14px}
+#dualscan-cloud .dc-deployed h2{font-size:27px}#dualscan-cloud .dc-deployed p{font-size:12px}#dualscan-cloud .dc-deployed a{text-decoration:none}
+@media(max-width:780px){#dualscan-cloud .dc-deployed{grid-template-columns:1fr}#dualscan-cloud .dc-deployed img{max-width:320px;margin:auto}}
