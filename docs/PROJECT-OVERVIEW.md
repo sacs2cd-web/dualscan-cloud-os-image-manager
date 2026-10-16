@@ -1,4 +1,4 @@
-# Dualscan Cloud OS Image Manager
+# Dualscan™ Cloud OS Image Manager
 
 **Author a WordPress application. Protect its image. Deploy its public experience.**
 

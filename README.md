@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/media/hero.png" alt="Dualscan Cloud OS Image Manager — authored site to protected application image to public runtime" width="1100"></p>
+<p align="center"><img src="docs/media/hero.png" alt="Dualscan™ Cloud OS Image Manager — authored site to protected application image to public runtime" width="1100"></p>
 
-# Dualscan Cloud OS Image Manager
+# Dualscan™ Cloud OS Image Manager
 
 ### Author your WordPress application. Deploy its public experience.
 
