@@ -43,8 +43,8 @@ Unsupported structures are refused instead of silently excluded: multisite, cust
 
 Despite its product name, a `.dualscan` file is a WordPress application image—not a universal cloud OS, disk, VM or container snapshot. It does not capture hosting accounts, DNS, TLS, mailboxes, server packages, database grants or filesystem ownership. Application policy cannot revoke the server owner's or provider's infrastructure privileges.
 
-## Open source, private operations
+## Public source, private operations
 
 The project declares GPL-2.0-or-later. Its deployment agreement preserves applicable open-source and non-waivable rights. Sealed administration is an operational choice for the deployed application, not a restriction on GPL source rights or a claim of secrecy from the host operator.
 
-The current work is a private source-and-release backup. Publication remains a separate publisher decision. Private server keys, customer data and operator credentials stay outside the project distribution.
+This public source release is licensed under GPL-2.0-or-later. Private server keys, customer data and operator credentials stay outside the project distribution. Source publication does not deploy a hosted instance or imply production certification.

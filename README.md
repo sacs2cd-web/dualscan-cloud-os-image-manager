@@ -68,11 +68,11 @@ Version 1.0.1 supports a single-site installation, local regular files, supporte
 
 A `.dualscan` file is a **WordPress application image**. Server packages, external services, DNS, TLS, database grants and infrastructure permissions are provisioned separately. Application policy cannot remove a hosting provider's server access. The included Docker/Nginx templates still require execution and validation on the target host.
 
-## GPL and a possible public release
+## Public source release under GPL
 
 The source declares **GPL-2.0-or-later**; see [LICENSE](LICENSE). Source rights to use, study, modify and redistribute covered software are distinct from access to a hosted instance. The draft deployment agreement preserves GPL and non-waivable rights; it does not make GPL code proprietary or prevent lawful modification of that code.
 
-This repository is a **private project backup**. It has not been published as a public release. [GPL release notes](docs/GPL-RELEASE-NOTES.md) cover license notices, corresponding source and separation of private operational data before any future distribution.
+This **public source release is licensed under GPL-2.0-or-later**. [GPL release notes](docs/GPL-RELEASE-NOTES.md) cover license notices, corresponding source and separation of private operational data. Publishing the source does not deploy a hosted instance or constitute WordPress.org directory submission.
 
 ## Build and operate
 

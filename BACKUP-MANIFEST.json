@@ -1,9 +1,9 @@
 {
   "project": "Dualscan Cloud OS Image Manager",
   "version": "1.0.1",
-  "visibility": "private",
   "contentAuditPassed": true,
   "privateKeyFilesAbsent": true,
+  "visibilityAtBackup": "private",
   "files": [
     {
       "path": ".gitignore",
@@ -13,9 +13,9 @@
     },
     {
       "path": "BACKUP-STATUS.md",
-      "bytes": 301,
-      "sha256": "d3acac132575ea053fd4c25c891da8b7764bb7066b5bdd93f7963a113eb55da3",
-      "gitBlobSha": "1ef286ab4e8e9fc03fc4f9f15f688b5f4bc9735b"
+      "bytes": 365,
+      "sha256": "1414fa0a33752f636a3d4b12017a3c197045145e32838b92535a37f546cf385a",
+      "gitBlobSha": "4c293d4269e7709f30f4d15cafc5f5cb6dd36dd1"
     },
     {
       "path": "LICENSE",
@@ -25,15 +25,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 7446,
-      "sha256": "62f4dbe270ca0871851eca08ddd3b6662ff879f7f69d5dc908d213873033b5fb",
-      "gitBlobSha": "632d4cc5aa20c9e25c9da5027f227b8a1b7d2f7e"
+      "bytes": 7490,
+      "sha256": "2c849960461ae2e2a79aaf2052717c7fb502e287cff8f7b7d5d35994f4db75dd",
+      "gitBlobSha": "979f10e35ddc80d3b23b041b44b85c1b02b50a91"
     },
     {
       "path": "SOURCE-MANIFEST.json",
       "bytes": 5391,
-      "sha256": "2e87ef5a6e3451f1d03aa931d61de44a9b288288d20479ff1873488696d61e0c",
-      "gitBlobSha": "0960f1a3486da58b5e30bf431cb16ff9e71fe51c"
+      "sha256": "ad885d0b7d038071cca3f1819038706686b56cc4a65943f2b069ff048bc1fc3c",
+      "gitBlobSha": "905adfe64c33bf72e05af86913d2f2586534b110"
     },
     {
       "path": "assets/deployment.css",
@@ -122,20 +122,20 @@
     {
       "path": "dist/RELEASE-MANIFEST.json",
       "bytes": 645,
-      "sha256": "aed273c549cfe4a934690f2a7d0f410112fe1817eef4429d052d3287b65d4bff",
-      "gitBlobSha": "c871cba525a2fea8a1dea52bfbc2f3cbd11dc1fc"
+      "sha256": "25770ab687f9fe82da2a5b73230013b852f7d234400404ed8476f6987bbf2fea",
+      "gitBlobSha": "7a3572e82029ee709238824ad5465884d0a085ee"
     },
     {
       "path": "dist/SHA256SUMS",
       "bytes": 223,
-      "sha256": "f74225b610165650f1914bd303b5261dbbf8cf2cfeeb2fe8980f28f0f4b59237",
-      "gitBlobSha": "1680416a4e482348b9cc37f65a181340bf00db52"
+      "sha256": "0a023ff19895eba4a9f7104ea897d57e8a5d0b091fb42699641d49399629d763",
+      "gitBlobSha": "97f65701311a09a6f6f5785acdc0d6d125fc9643"
     },
     {
       "path": "dist/dualscan-cloud-os-image-manager-1.0.1-source.zip",
-      "bytes": 2328316,
-      "sha256": "a3ffa6c7bc634914470b0dadf417aad4c204ed5ee6a700acd695a5d13e711a7d",
-      "gitBlobSha": "10fe19a3c45759a06c61355edded72d10bb5e92a"
+      "bytes": 2328322,
+      "sha256": "69b7f86f78d761e12ee93cdf3bdd0cf37ba039284397aa93e87f6822fb43d013",
+      "gitBlobSha": "ac9cdc374e716d8b0def61867d46759f09c433bd"
     },
     {
       "path": "dist/dualscan-cloud-os-image-manager-1.0.1.zip",
@@ -151,9 +151,9 @@
     },
     {
       "path": "docs/GPL-RELEASE-NOTES.md",
-      "bytes": 3544,
-      "sha256": "cd1fe16d5695dd95fa41faf61cbf4384ba98f2d0bb4c2155f0f71f3e29be4d69",
-      "gitBlobSha": "ad67214b94cbccecd1131354552545ff0fbc7c4f"
+      "bytes": 3491,
+      "sha256": "997ccf9cfa9e0ac8c3cecd355ad9818f0ca2f2190f9e276da07c0bbf8859c555",
+      "gitBlobSha": "3e223987558cc2b34c3efa786b43eaee2d15079f"
     },
     {
       "path": "docs/PRESENTATION-VERIFICATION.md",
@@ -163,9 +163,9 @@
     },
     {
       "path": "docs/PROJECT-OVERVIEW.md",
-      "bytes": 5743,
-      "sha256": "b7adcfbfbd809cf93446f7705d624343128e74f02837d26dde14a9bee91f759f",
-      "gitBlobSha": "7240ffa63b7b65a433ede56af79afad6fa3f73bc"
+      "bytes": 5788,
+      "sha256": "a4ae5853e55ef3427776f835994972384319ff20c9c54ffda3b937155c7c605e",
+      "gitBlobSha": "665fe144bf4940fed4eb248f381a2faa9a65c0e0"
     },
     {
       "path": "docs/SECURITY-REVIEW.md",
@@ -223,9 +223,9 @@
     },
     {
       "path": "docs/presentation.html",
-      "bytes": 8305,
-      "sha256": "b62a956ff9e44dceb945e07057cc5726f7b994c3eccab0cd42bdd257707d5109",
-      "gitBlobSha": "b02d4dc9a63c0554dd82b1f18d4c8eb2c18e6125"
+      "bytes": 8412,
+      "sha256": "0281c8bcec2a4236bffbf9cb32ccd801429509992878bae472e4b43eec9e7233",
+      "gitBlobSha": "8044495594fdc5b1a67e0b3cb7bbc0df532015a5"
     },
     {
       "path": "dualscan-cloud-os-image-manager.php",
